@@ -1,0 +1,22 @@
+{
+  "name": "b11-a4-javascript-01",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Dev-istiake/B11-A4-javaScript-01#readme",
+  "bugs": {
+    "url": "https://github.com/Dev-istiake/B11-A4-javaScript-01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-istiake/B11-A4-javaScript-01.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "module": "nodemon app.js"
+
+  }
+}
