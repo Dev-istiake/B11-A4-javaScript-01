@@ -58,7 +58,7 @@ function isBestFriend(f1, f2) {
       return "Invalid";
    } else if (Array.isArray(f1) || Array.isArray(f2)) {
       return "Invalid";
-   } else if (f1.roll === f2.bestFriend && f2.roll === f2.roll) {
+   } else if (f1.roll === f2.bestFriend && f2.roll === f1.bestFriend) {
       return true;
    } else {
       return false;
@@ -77,7 +77,7 @@ function calculateWatchTime(times) {
    }
    let hour = Math.floor(totalTimesS / 3600);
    let minute = Math.floor((totalTimesS - 3600 * hour) / 60);
-   let second = Math.floor(totalTimesS - 3600 * hour - minute * 60);
+   let second = totalTimesS - 3600 * hour - minute * 60;
 
    let watchTime = { hour: hour, minute: minute, second: second };
    return watchTime;
